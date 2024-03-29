@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link href='https://fonts.googleapis.com/css?family=Share+Tech+Mono' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <section class="Stopwatch-body">
+        
+        
+
+        <div class="clock">
+            <p><span id="hr">00</span>:<span id="min">00</span>:<span id="sec">00</span>:<span id="ms">00</span></p>
+        </div>
+        
+        
+        <div class="buttons">
+            <div class="icons">
+                <div class="icons" id="btn-start-stop">
+                    <span class="stop-watch">
+                    <span class="sw-parts">
+                        <span class="sw-parts2" id="icn-clock-line"></span>
+                    </span>
+                    </span>
+                    <span class="label" id="label-start-stop">START</span>
+                </div>
+            </div>
+            <div class="btn btn-reset" id="btn-reset">
+                <span class="bl-parts"></span>
+                <span class="bl-parts"></span>
+                <span class="btn-label">RESET</span>
+            </div>
+            <div class="save">
+                <i class="fa-solid fa-clock-rotate-left"></i>
+                <span class="btn-label">SAVE</span>
+            </div>
+        </div>
+    </section>
+
+    <div class="saveTimes">
+        
+    </div>
+
+    <script src="js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
